@@ -1,5 +1,7 @@
 package com.ItzJuls;
 
+import java.lang.Integer;
+
 public class Calculadora {
 
 	private int Num1;
@@ -45,7 +47,9 @@ public class Calculadora {
 			res= Num1*Num2;
 			break;
 		case '/':
-			res= Num1/Num2;
+			float a= Num1;
+			float b= Num2;
+			res= a/b;
 			break;
 			
 			default:
